@@ -26,13 +26,22 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.vinicius134.blevoz"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      ["react-native-ble-plx", {"isBackgroundEnabled": false, "modes": ["central"]}]
+      [
+        "react-native-ble-plx",
+        {
+          "isBackgroundEnabled": false,
+          "modes": [
+            "central"
+          ]
+        }
+      ]
     ]
   }
 }
